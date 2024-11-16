@@ -10,9 +10,9 @@ form.addEventListener("submit", (e)=>{
     let email = document.getElementById("email").value;
 
     let formValues = {
-        name : name, 
+        nome : name, 
         email : email,
-        password : password, 
+        senha : password
     }
 
 
