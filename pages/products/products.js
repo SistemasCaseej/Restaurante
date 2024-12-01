@@ -1,5 +1,11 @@
 const container = document.getElementById("container");
 
+const mainSection = document.createElement("div");
+
+mainSection.classList.add("main-section");
+container.appendChild(mainSection);
+
+
 let dishes = [
     {
         photo: "../../assets/images/image-waffle-mobile.jpg",
@@ -61,10 +67,10 @@ let dishes = [
 
 dishes.forEach((element) => {
 
-    console.log(element)
     // Criando o elemento section para cada prato
     let section = document.createElement("section");
     let image = document.createElement("img")
+    section.classList.add("product-section");
 
     // Criando a imagem do prato
     image.setAttribute("src", element.photo)
@@ -92,5 +98,5 @@ dishes.forEach((element) => {
     section.appendChild(price);
 
     // Adicionando a section ao container
-    container.appendChild(section);
+    mainSection.appendChild(section);
 });

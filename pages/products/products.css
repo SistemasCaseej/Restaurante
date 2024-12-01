@@ -5,6 +5,7 @@
 
 .image{
     border-radius: 5px;
+    /* width: 300px; */
 }
 
 .title{
@@ -24,3 +25,27 @@
     margin-top: 0.3rem;
 }   
 
+
+.product-section{
+    background-color: yellow;
+}
+
+
+@media screen and (min-width : 500px) {
+    .main-section{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }    
+
+    .product-section{
+        width: 320px;
+        /* margin-right: 3rem; */
+
+    }
+
+    #container{
+        padding: 2rem;
+    }
+}
