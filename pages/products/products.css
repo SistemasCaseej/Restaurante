@@ -18,29 +18,28 @@
     color: #bf5633;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
 }
 
 .price{
     margin-top: 0.3rem;
 }   
 
-
-.product-section{
-    background-color: yellow;
+.main-section{
+    margin-top: 3rem;
 }
 
 
 @media screen and (min-width : 500px) {
     .main-section{
-        background-color: red;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
+        gap: 40px;
     }    
 
     .product-section{
-        width: 320px;
+        width: 340px;
         /* margin-right: 3rem; */
 
     }
